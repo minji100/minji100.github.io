@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+html{
+    font-size: 10px;
+}
+body{
+    background: url("../image/leading-21.png");
+    min-height: 100vh;
+    margin:0;
+    /*본문디장니 상속*/
+    /*font: [두께] [기울기] 크기/행간 글꼴;*/
+    font: 1.4rem/1.5 "Spoqa Han Sans";
+    letter-spacing: -0.05em;
+    color: #333741;
+}
+
+.container{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(red, green, blue, alpha)
+    }
+
+    /*본문디자인*/
+    p{margin-top: 0;
+      margin-bottom:1.5em;
+      }
+
+    /*제목공통디자인*/
+h1,h2,h3,h4,h5{
+    font-weight: 300;
+    letter-spacing: -0.05em;
+}
+
+/*제목 개별 디자인*/
+h5{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+h4{
+    font-size: 1.56rem;
+    line-height: 2rem;
+}
+h3{
+    font-size: 1.83rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 3rem;
+    line-height: 2rem;
+}
+h1{
+    font-size: 5.463rem;
+    line-height: 4rem;
+}
+
+/*목록 공통 디자인*/
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0px;
+    list-style: none;
+}
+/*웹브라우저(user agent style) 기본 스타일 제거*/
+
+/*목록 개별 디자인*/
+ul {}
+ol {}
+
+/*목록 항목 디자인*/n
+li {
+    margin-bottom: 4.2rem;
+}
+/*하이퍼링크 디자인*/
+a[href] {
+    color: #3292a7;
+}
+a[href]:hover{
+    color: #227e92;
+    text-decoration: underline;
+}
+
+/*상태디자인*/
+/*기본(nomal state)*/
+/*마우스가 올라간 상태 (hover state)*/
+/*클릭한 상태 (active state)*/
+/*비활성 상태 (deatrive state)*/
+/*포커스상태 (focus state)*/
+/*방문한 상태 (visited state)*/
+
+
+img{
+    vertical-align: bottom;
+    margin-bottom: 2rem;
+}
+.header{
+    text-align: center;
+    margin-top: 8.4rem;
+}
